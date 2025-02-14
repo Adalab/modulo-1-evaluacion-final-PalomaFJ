@@ -1,7 +1,8 @@
+@use"../core/variables" as vars;
+
 .header {
-    border: 2px solid red;
-    background-color:rgba($color: #000000, $alpha: 1.0)
-    width: 100%;
+    background-color: vars.$verde-boton;
+    max-width: 100%;
     top: 0;
     left: 0;
     padding: 10;

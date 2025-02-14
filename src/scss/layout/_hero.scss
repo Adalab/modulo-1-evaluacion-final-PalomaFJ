@@ -1,8 +1,10 @@
+@use"../core/variables" as vars;
+
 .hero-container {
+    max-width: 100%;
     position: relative;
     text-align: center;
-    color: $negro;
-
+    color: vars.$negro;
     z-index: 1;
 }
 h1 {
@@ -13,4 +15,8 @@ h1 {
     left: 50%;
     transform: translate(-50%);
     width: 90%;
+}
+.imagen-niña-hero {
+    max-width: 100%;
+    height: auto;
 }
