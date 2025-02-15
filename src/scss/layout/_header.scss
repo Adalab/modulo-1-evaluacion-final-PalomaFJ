@@ -1,26 +1,29 @@
 @use"../core/variables" as vars;
 
 .header {
-    background-color: vars.$verde-boton;
-    max-width: 100%;
+    background-color:transparent;
+    position: fixed;
     top: 0;
     left: 0;
-    padding: 10;
-    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
     z-index: 1000;
-    display: flex;
-    align-items: center;
+
 }
-.icono-menu-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    left: 10px;
+
+.enlace-header {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+background-color: vars.$verde-boton;
+border-radius: 8px;
 }
-.header-img {
-    width: 30px;
-    height: 30px;
+.icono-header {
+    width: 15px;
+    height: 15px;
 }
+  
+   

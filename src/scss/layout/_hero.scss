@@ -1,25 +1,86 @@
 @use"../core/variables" as vars;
 
+body { 
+    display: inline-block;
+    margin: 0;
+}
 .hero-container {
-    max-width: 100%;
-    position: relative;
+    width: 412px;
+    height: 915px; 
+}
+
+.container-img-nina-hero {
+    width: 100%;
+    height: 100vh;
+    background-image:url(/images/cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 83%;
+    z-index: -1;
+}
+.container-texto-hero {
+    z-index: 0;
+    margin-top: -100%;
     text-align: center;
-    color: vars.$negro;
-    z-index: 1;
+    color: vars.$blanco;
 }
 h1 {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 40px;
+    line-height: 180%;
+}
+p {
+    font-size: 28px;
+    line-height: 90%;
+    margin-top: 7%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.hero-flecha {
+    margin-top: 25%;
+    
+}
+  .flecha1 {
+    padding: 20px;
+    background-color: vars.$blanco;
+    border-radius: 50%;
+  }
+
+/*.container-img-nina-hero {
+  background-image: url(/images/cover.jpeg);
+  ba
+
+}
+.img-nina-hero {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+   
+   
+}
+.container-texto-hero {
+    h1 {
+        font-size: 10px;
+        font-weight: bold;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    p  {
+    font-size: 10px;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
-    width: 90%;
+    width: 80%;
+    transform: translate (-50%, -50%);
+    
+    }
 }
+
+
 .container-img-niña-hero {
-    max-width: 100%;
+ 
 }
-.img-niña-hero {
-    max-width: 100%;
-    height: auto;
-}
+*/
