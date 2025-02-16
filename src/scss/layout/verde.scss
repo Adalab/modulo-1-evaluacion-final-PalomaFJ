@@ -3,3 +3,39 @@
 .vuelta-seccion-verde {
     background-color: vars.$verde-seccion;
 }
+.container-texto-verde {
+    z-index: 0;margin-top: 10%;
+    text-align: center;
+    p { 
+        color: vars.$gris;
+    }
+    h4 {
+        color: vars.$negro;
+    }
+    
+}
+.container-imagenes-vuelta {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.tres-imagenes-verde {
+    max-width: 30%;
+    border-radius: 50%;
+}
+.mochila {
+    max-width: 160px;
+    border-radius:50%;
+}
+.estuches {
+    max-width: 160px;
+    border-radius: 50%;
+}
+.bolsas-deporte {
+    max-width: 160px;
+    border-radius: 50%;
+}
+.textos-imagenes-verde {
+    color: vars.$negro;
+}
