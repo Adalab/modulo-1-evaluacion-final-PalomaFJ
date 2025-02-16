@@ -1,0 +1,5 @@
+@use"../core/variables" as vars;
+
+.vuelta-seccion-verde {
+    background-color: vars.$verde-seccion;
+}

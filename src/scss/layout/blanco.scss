@@ -1,4 +1,5 @@
 @use"../core/variables" as vars;
+/*@use"../fonts/variables" as vars;*/
 
 .tienda-seccion-blanca {
     background-color: vars.$blanco;
@@ -11,7 +12,7 @@ h2 {color: vars.$verde-boton;
     font-size: 18px;
     font-weight: lighter;
     line-height: 30%;
-    /* font-family: BUSCALA!!!*/
+    /* font-family: */
     margin-top: 10%;
     margin-left: 2%;
     margin-right: 0%;
@@ -25,5 +26,30 @@ h3 {
 
 }
 p {
-    font-size: 27px;
+    color: vars.$gris;
+    font-size: 17px;
+    margin: 9px;
+    margin-top: 7%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+/*.container-boton-comprar {
+    display: flex;
+    justify-content: center;
+}*/
+.boton-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;   
+    color: vars.$verde-boton;
+    border: 3px solid vars.$verde-boton;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 10px;
+    margin-right: 2px;
+    max-width: 300px;
+    width: 37%;
+    font-size: 700;
+    /*font-family: ;*/ 
 }
