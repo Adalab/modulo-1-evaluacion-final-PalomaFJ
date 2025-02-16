@@ -2,40 +2,53 @@
 
 .vuelta-seccion-verde {
     background-color: vars.$verde-seccion;
+    height: 880px;
+    /*z-index: -1;*/
 }
 .container-texto-verde {
-    z-index: 0;margin-top: 10%;
+    z-index: 0;
+    padding-top: 6%;
+    margin-top: 6%;
     text-align: center;
     p { 
         color: vars.$gris;
+        font-size: 18px;
     }
     h4 {
+        margin-top: 1%;
         color: vars.$negro;
     }
     
 }
-.container-imagenes-vuelta {
+article {
     margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding: 0 20%;
 }
 
 .tres-imagenes-verde {
     max-width: 30%;
     border-radius: 50%;
-}
-.mochila {
-    max-width: 160px;
-    border-radius:50%;
-}
-.estuches {
     max-width: 160px;
     border-radius: 50%;
-}
-.bolsas-deporte {
-    max-width: 160px;
-    border-radius: 50%;
-}
+    box-shadow: 0px 10px 0px 0px rgba($color: #615f5f, $alpha: 0.2);
+    margin-left: 20%;
+    }
 .textos-imagenes-verde {
     color: vars.$negro;
+    text-align: center;
+    margin-top: 3%;
+    
+}
+.empezar-ahora {
+    padding: 10px 20px;
+    background-color: vars.$verde-boton;
+    color: vars.$blanco;
+    border: 0px solid;
+    border-radius: 45px;
+    height: 60px;
+    max-height: 200px;
+    width: 265px;
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 19%;
 }

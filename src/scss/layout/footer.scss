@@ -1,0 +1,9 @@
+@use"../core/variables" as vars;
+
+.footer {
+    background-color: vars.$gris;
+    z-index: -1;
+}
+.footer-flecha {
+    z-index: 0;
+}
