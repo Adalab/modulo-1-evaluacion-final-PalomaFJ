@@ -1,0 +1,29 @@
+@use"../core/variables" as vars;
+
+.tienda-seccion-blanca {
+    background-color: vars.$blanco;
+    width: 414px;
+    height: 520px;
+    padding: 1%;
+
+}
+h2 {color: vars.$verde-boton;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30%;
+    /* font-family: BUSCALA!!!*/
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 0%;
+
+}
+h3 {
+    font-size: 29px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+
+}
+p {
+    font-size: 27px;
+}
