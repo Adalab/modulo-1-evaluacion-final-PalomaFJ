@@ -1,11 +1,11 @@
 @use"../core/variables" as vars;
 
-body { 
-    display: inline-block;
-    margin: 0;
-}
 .hero-container {
-    height: 915px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
 }
 
 .container-img-nina-hero {
@@ -19,7 +19,7 @@ body {
 }
 .container-texto-hero {
     z-index: 0;
-    margin-top: -100%;
+    margin-top: -110%;
     text-align: center;
     color: vars.$blanco;
 }
@@ -32,11 +32,12 @@ h1 {
 .parrafo-hero {
     text-align: center;
     color: vars.$blanco;
-    font-size: 28px;
-    line-height: 90%;
+    font-size: 20px;
+    line-height: 140%;
     margin-top: 7%;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 17%;
+    margin-right: 17%;
+   
 }
 .hero-flecha {
     margin-top: 25%;

@@ -2,8 +2,9 @@
 
 .vuelta-seccion-verde {
     background-color: vars.$verde-seccion;
-    height: 880px;
-    /*z-index: -1;*/
+    height: 900px;
+    z-index: -1;
+    position: relative;
 }
 .container-texto-verde {
     z-index: 0;
