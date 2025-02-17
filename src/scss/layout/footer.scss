@@ -1,6 +1,7 @@
 @use"../core/variables" as vars;
 
 .footer {
+    margin-top: -1px;
     background-color: vars.$gris;
     position: relative;
     z-index: -1;
@@ -15,8 +16,18 @@
     position: absolute;
 
 }
+.footer-menu-enlaces {
+    margin-left: -45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    flex-wrap: wrap;
+}
 
 .lista-elementos-1 {
+    margin-left: -12px;
     color: vars.$blanco;
     display: flex;
     flex-direction: column;
@@ -33,5 +44,15 @@
     line-height: 33px;
 }
 .palabras-final-footer {
+    display: flex;
+    flex-direction: column;
     color: vars.$blanco;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 0px;
+}
+.copy-2023-run {
+    color: vars.$blanco;
+    font-size: 15px;
+    line-height: 3px;
 }
