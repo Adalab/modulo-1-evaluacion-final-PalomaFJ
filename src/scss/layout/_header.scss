@@ -26,5 +26,27 @@ border-radius: 0px;
     width: 15px;
     height: 15px;
 }
-  
-   
+@media (min-width:768px) {
+    .header {
+    background-color:transparent;
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .enlace-header {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    position:absolute;
+    top:0px;
+    left: 0px;
+ }
+ .icono-header {
+    width: 20px;
+    height: 20px;
+ }
+}
+
+     
