@@ -1,6 +1,7 @@
 @use"../core/variables" as vars;
 
 .hero-container {
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,12 +41,12 @@ h1 {
    
 }
 .hero-flecha {
-    margin-top: 25%;
-    
+      
 }
   .flecha1 {
-    margin-left: 41%;
-    padding: 20px;
+    margin-top: 103%; 
+    margin-left: -18%;
+    padding: 23px;
     background-color: vars.$blanco;
     border-radius: 50%;
   }
