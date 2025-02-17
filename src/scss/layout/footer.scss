@@ -56,3 +56,28 @@
     font-size: 15px;
     line-height: 3px;
 }
+@media (min-width :768px) {
+    .footer-flecha {
+        padding: 35px;
+        margin-left: 100px;
+        top: -55px;
+    }
+    .footer-menu-enlaces {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lista-elementos-1 { 
+        flex: 1;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .lista-elementos-2 {
+        flex: 1;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
